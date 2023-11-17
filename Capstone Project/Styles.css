@@ -1,0 +1,85 @@
+.top-container{
+    text-align: center;
+    background-color: orange;
+
+}
+
+.UTD{
+    height: 500px;
+    width:100%;
+}
+.gears{
+    height: 300px;
+    width:300px; 
+}
+.NinadSudarsanam{
+    height: 300px;
+    width:300px;
+}
+.CVS{
+    height: 300px;
+    width:300px; 
+}
+.Walgreens{
+    height: 300px;
+    width:300px;  
+}
+.musicPhoto{
+    height: 300px;
+    width:300px;
+}
+.calendar{
+    height: 300px;
+    width:300px; 
+}
+.profile{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+.skills{
+    text-align: center;
+}
+.parent{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.contact-me{
+    text-align: center;
+    background-color: red;
+}
+@media(max-width: 550px){
+
+    .UTD{
+        height: 200px;
+        width:100%;
+    }
+    .gears{
+        height: 200px;
+        width:200px; 
+    }
+    .NinadSudarsanam{
+        height: 200px;
+        width:200px;
+    }
+    .CVS{
+        height: 200px;
+        width:200px; 
+    }
+    .Walgreens{
+        height: 200px;
+        width:200px;  
+    }
+    .musicPhoto{
+        height: 200px;
+        width:200px;
+    }
+    .calendar{
+        height: 200px;
+        width:200px; 
+    }
+    .parent{
+        display: inline;
+    }
+}
